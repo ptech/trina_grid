@@ -32,7 +32,11 @@ dependencies:
   rxdart: ^0.28.0
   collection: ^1.19.1
   path: ^1.9.1
-  pdf: ^3.11.3
+  pdf:
+    git:
+      url: https://github.com/ptech/dart_pdf.git
+      ref: 71db9a348b68e2230734e6d5691d9cc05e9b89b8 # Fix thread issues on iOS and MacOS printing plugin
+      path: pdf
 
 dev_dependencies:
   flutter_test:
