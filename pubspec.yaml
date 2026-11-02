@@ -35,7 +35,7 @@ dependencies:
   pdf:
     git:
       url: https://github.com/ptech/dart_pdf.git
-      ref: v3.11.3-ptech # Fix thread issues on iOS and MacOS printing plugin
+      ref: v3.11.3-archive4x-ptech # archive 4.x, plus the iOS and macOS printing thread fix
       path: pdf
 
 dev_dependencies:
